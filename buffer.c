@@ -19,7 +19,7 @@ Buffer *buffer_create(USize capacity)
   {
     buffer->length = capacity;
     buffer->position = 0;
-    buffer->data = buffer + 1;
+    buffer->data = (void*)(buffer + 1);
   }
   return buffer;
 }
