@@ -10,6 +10,8 @@
 #error Int is expected to be 32-bit.
 #endif
 
+typedef char Char;
+
 typedef signed char Byte;
 typedef signed short Short;
 typedef signed int Int;
@@ -48,6 +50,8 @@ typedef bool Boolean;
 #ifndef FALSE
 #define FALSE 0
 #endif
+
+typedef void *Object;
 
 #endif
 
