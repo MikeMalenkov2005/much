@@ -1,5 +1,5 @@
-#ifndef _DSH_TYPES_H
-#define _DSH_TYPES_H
+#ifndef _MUCH_TYPES_H
+#define _MUCH_TYPES_H
 
 /* Java/Kotlin style primitive typedefs */
 

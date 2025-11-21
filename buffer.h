@@ -1,5 +1,5 @@
-#ifndef _DSH_BUFFER_H
-#define _DSH_BUFFER_H
+#ifndef _MUCH_BUFFER_H
+#define _MUCH_BUFFER_H
 
 #include "types.h"
 #include "utils.h"

@@ -1,5 +1,5 @@
-#ifndef _DSH_BUFFER_C
-#define _DSH_BUFFER_C
+#ifndef _MUCH_BUFFER_C
+#define _MUCH_BUFFER_C
 
 #include "buffer.h"
 #include <stdlib.h>

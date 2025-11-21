@@ -1,5 +1,5 @@
-#ifndef _DSH_UTILS_H
-#define _DSH_UTILS_H
+#ifndef _MUCH_UTILS_H
+#define _MUCH_UTILS_H
 
 #define STMT(S) do { S } while (0);
 

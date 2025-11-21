@@ -1,5 +1,5 @@
-#ifndef _DSH_ARRAY_H
-#define _DSH_ARRAY_H
+#ifndef _MUCH_ARRAY_H
+#define _MUCH_ARRAY_H
 
 #include "types.h"
 #include <stdlib.h>
