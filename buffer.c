@@ -74,7 +74,7 @@ Bool buffer_write_boolean(Buffer *buffer, Boolean value)
 Bool buffer_read(Buffer *buffer, void *data, USize size)
 {
   if (!buffer || buffer->length - buffer->position < size) return FALSE;
-  memcpy(data, buffer->data, size);
+  memcpy(data, buffer->data + buffer->position, size);
   buffer->position += size;
   return TRUE;
 }

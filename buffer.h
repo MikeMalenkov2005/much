@@ -8,7 +8,7 @@ typedef struct Buffer
 {
   USize length;
   USize position;
-  void *data;
+  UByte *data;
 } Buffer;
 
 #define buffer_static(data) { sizeof(data), 0, (data) }
