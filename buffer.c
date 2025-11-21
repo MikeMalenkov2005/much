@@ -9,7 +9,10 @@ CAPI_BEGIN
 
 Buffer buffer_wrap(void *data, USize size)
 {
-  return (Buffer) { size, 0, data };
+  Buffer buffer = { 0 };
+  buffer.length = size;
+  buffer.data = data;
+  return buffer;
 }
 
 Buffer *buffer_create(USize capacity)
