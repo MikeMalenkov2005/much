@@ -1,8 +1,7 @@
-Data Structure Headers
-======================
+My Utility C Headers
+====================
 
-This reposetory holds usefull C headers
-with data structures and some algorithms.
+This reposetory holds usefull C headers with different utilities.
 
 Content Registry
 ----------------
